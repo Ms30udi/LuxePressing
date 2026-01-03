@@ -64,24 +64,18 @@ const Navbar = () => {
                                 <a
                                     key={item.label}
                                     href={item.href}
-                                    className="relative text-white/90 font-medium whitespace-nowrap group/link"
+                                    className={`
+    whitespace-nowrap font-medium transition-colors duration-200
+    ${isActive(item.href) ? "text-white" : "text-white/80 hover:text-white"}
+  `}
                                 >
                                     {item.label}
-
-                                    {/* Hover effect (UNCHANGED, like you wanted) */}
-                                    <span
-                                        className="
-              absolute left-1/2 -bottom-3 h-2 w-2 rounded-full bg-white
-              -translate-x-1/2
-              scale-0 group-hover/link:scale-100
-              transition-transform duration-300
-            "
-                                    />
                                 </a>
                             ))}
                         </div>
                     </div>
                 </div>
+
 
 
                 {/* CTA / Hamburger — RIGHT */}
@@ -135,6 +129,7 @@ const Navbar = () => {
                             )}
                         </a>
                     ))}
+                    
                 </div>
             </div>
         </nav>
