@@ -48,15 +48,15 @@ const Hero = () => {
 
           {/* Text */}
           <div className="text-white text-center md:text-left md:order-1">
-            <p className="text-sm md:text-2xl mb-1">
+            <p className="text-sm md:text-2xl mb-2">
               Nous prenons soins de vos
             </p>
-            <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-5">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-5">
               vêtements !
             </h1>
 
             {/* Services icons */}
-            <div className="flex justify-center md:justify-start gap-5 mb-10">
+            <div className="flex justify-center md:justify-start gap-6 mt-10">
               {[
                 { icon: FaSoap, label: "Nettoyage à sec" },
                 { icon: FaFireAlt, label: "Repassage" },
@@ -72,12 +72,12 @@ const Hero = () => {
                     className="
                       w-14 h-14
                       rounded-full
-                      border border-white/60
+                      border border-white/80
                       flex items-center justify-center
                       mb-2
                     "
                   >
-                    <Icon className="text-xl drop-shadow-sm" />
+                    <Icon className="text-3xl drop-shadow-sm" />
                   </div>
                   <span className="hidden sm:block text-center">
                     {label}

@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Footer from "../components/footer";
 import { TestimonialSlider } from "../components/ui/testimonial-slider";
+import ScrollToTop from "../components/ScrollToTop";
 
 const testimonials = [
   {
@@ -47,7 +48,7 @@ export default function Home() {
       </main>
 
       {/* Testimonials */}
-      <section className="py-20 bg-gray-50">
+      <section id="testimonials" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 text-center">
           
           {/* Section title */}
@@ -63,7 +64,8 @@ export default function Home() {
           
         </div>
       </section>
-        <Footer />
+      <ScrollToTop />
+    <Footer />
     </>
   );
 };

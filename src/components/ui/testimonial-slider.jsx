@@ -106,14 +106,14 @@ export const TestimonialSlider = ({ testimonials }) => {
       <div className="flex justify-center gap-6 mt-8">
         <button
           onClick={prev}
-          className="text-teal-500 hover:scale-110 transition"
+          className="text-teal-500 hover:scale-110 transition cursor-pointer"
           aria-label="Previous review"
         >
           <ChevronLeft />
         </button>
         <button
           onClick={next}
-          className="text-teal-500 hover:scale-110 transition"
+          className="text-teal-500 hover:scale-110 transition cursor-pointer"
           aria-label="Next review"
         >
           <ChevronRight />
