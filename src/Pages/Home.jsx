@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Footer from "../components/footer";
+import LaundryAboutSection from "../components/About";
+import ServicesSection from "../components/Services";
 import { TestimonialSlider } from "../components/ui/testimonial-slider";
 
 const testimonials = [
@@ -44,6 +46,8 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <LaundryAboutSection />
+        <ServicesSection />
       </main>
 
       {/* Testimonials */}
