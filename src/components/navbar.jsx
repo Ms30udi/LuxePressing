@@ -25,6 +25,7 @@ const Navbar = () => {
     <nav
       className="relative w-full z-50 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/assets/image1.jfif')" }}
+    id="navbar"
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-teal-500/95" />

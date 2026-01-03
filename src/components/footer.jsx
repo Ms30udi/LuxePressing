@@ -102,7 +102,7 @@ const Footer = () => {
 
         {/* Scroll to top */}
         <a
-          href="#accueil"
+          href="#navbar"
           aria-label="Scroll to top"
           className="absolute right-8 bottom-8 w-12 h-12 bg-white text-teal-500 rounded-full
                      flex items-center justify-center shadow-lg

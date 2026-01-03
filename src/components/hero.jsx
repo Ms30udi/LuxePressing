@@ -11,7 +11,7 @@ import { HiArrowDown } from "react-icons/hi";
 const Hero = () => {
   return (
     <section
-      id="accueil"
+      id="hero"
       className="
         relative
         min-h-[85vh] md:min-h-screen
