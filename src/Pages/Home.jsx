@@ -4,6 +4,7 @@ import Hero from "../components/hero";
 import Footer from "../components/footer";
 import LaundryAboutSection from "../components/About";
 import ServicesSection from "../components/Services";
+import TarifsCarousel from "../components/Tarifs";
 import { TestimonialSlider } from "../components/ui/testimonial-slider";
 import ScrollToTop from "../components/ScrollToTop";
 
@@ -49,6 +50,7 @@ export default function Home() {
         <Hero />
         <LaundryAboutSection />
         <ServicesSection />
+        <TarifsCarousel />
       </main>
 
       {/* Testimonials */}
